@@ -16,6 +16,7 @@ const AllTeams = () => {
     return (
 
             <div className="container all-teams-style">
+                
                 <div className="row">
                     {
                         teams.map(team => <SingleTeam key={team.idTeam} team={team} />)

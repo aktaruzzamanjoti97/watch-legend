@@ -1,0 +1,26 @@
+.about{
+    background-image: url('../../images/stadium.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-heading{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11rem 0rem;
+    color: white;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.about-paragraph{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: white;
+}

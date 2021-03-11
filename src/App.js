@@ -9,9 +9,8 @@ import {
 } from "react-router-dom";
 import NotFound from './components/NotFound/NotFound';
 import TeamDetails from './components/TeamDetails/TeamDetails';
-import Header from './components/Header/Header';
 import NavShow from './components/NavShow/NavShow';
-import AllTeams from './components/AllTeams/AllTeams';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -22,8 +21,8 @@ function App() {
           <Route path='/home'>
             <Home />
           </Route>
-          <Route path='/teams'>
-            <AllTeams />
+          <Route path='/about'>
+            <About />
           </Route>
           <Route exact path='/'>
             <Home />

@@ -15,7 +15,7 @@ const NavShow = () => {
                 <Navbar.Brand href="#home">Football Mania</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link as={Link} to='/home'>Home</Nav.Link>
-                    <Nav.Link as={Link} to='/teams'>Teams</Nav.Link>
+                    <Nav.Link as={Link} to='/about'>About</Nav.Link>
                     <Nav.Link onClick={handleClick}>Back</Nav.Link>
                 </Nav>
             </Navbar>

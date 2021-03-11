@@ -23,7 +23,7 @@ const TeamDetails = () => {
             .then(data => setDetails(data.teams[0]))
     }, []);
 
-    const { strTeamBanner, strInstagram, strTeam, strTwitter, intFormedYear, strCountry, strGender, strFacebook, strTeamBadge, strDescriptionEN } = details;
+    const { strTeamBanner, strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strDescriptionEN } = details;
 
 
    
