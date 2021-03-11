@@ -5,7 +5,6 @@ import Male from '../../images/Male-Female/male.png';
 import Female from '../../images/Male-Female/female.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faFutbol, faMars, faPodcast } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookSquare, faInstagramSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import facebookImage from '../../images/Icon/Facebook.png';
 import youTubeImage from '../../images/Icon/YouTube.png';
 import twitterImage from '../../images/Icon/Twitter.png';
@@ -21,7 +20,7 @@ const TeamDetails = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setDetails(data.teams[0]))
-    }, []);
+    }, [teamId]);
 
     const { strTeamBanner, strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strDescriptionEN } = details;
 

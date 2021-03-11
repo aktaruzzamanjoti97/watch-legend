@@ -14,10 +14,11 @@
 }
 
 .header-bg{
-    background-image: url('../../images/Header-bg/Header-bg.png');
-    height: 330px;
+    background-image: url('../../images/Header-bg/stadium3.jpg');
+    height: 450px;
     position: relative;
     overflow: hidden;
+    background-position: center;
 }
 
 

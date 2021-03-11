@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="container header-bg">
             <div className="overlay">
-                <h1>Football Mania</h1>
+                <h1 style={{fontSize: '60px'}}>Football Mania</h1>
             </div>
         </div>
     );

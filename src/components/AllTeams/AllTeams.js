@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import NavShow from '../NavShow/NavShow';
 import SingleTeam from '../SingleTeam/SingleTeam';
 import './AllTeam.css';
 
