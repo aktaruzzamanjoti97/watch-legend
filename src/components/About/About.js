@@ -6,7 +6,7 @@ const About = () => {
         <div className="container">
             <div className="about">
                 <div className="about-heading">
-                    <h1 style={{ fontSize: '50px' }}>About English Premier Leauge</h1> 
+                    <h1 style={{ fontSize: '50px', marginLeft: '10px' }}>About English Premier Leauge</h1> 
                 </div>
             </div>
             <div className="about-paragraph p-5">

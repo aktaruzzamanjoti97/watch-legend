@@ -8,6 +8,7 @@ import { faFlag, faFutbol, faMars, faPodcast } from '@fortawesome/free-solid-svg
 import facebookImage from '../../images/Icon/Facebook.png';
 import youTubeImage from '../../images/Icon/YouTube.png';
 import twitterImage from '../../images/Icon/Twitter.png';
+import { Link } from 'react-router-dom';
 
 
 const TeamDetails = () => {
@@ -25,17 +26,17 @@ const TeamDetails = () => {
     const { strTeamBanner, strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strDescriptionEN } = details;
 
 
-   
-    const textStyle ={
-       marginLeft: '15px'     
+
+    const textStyle = {
+        marginLeft: '15px'
     }
 
 
     return (
-        
 
-        <div style={{overflow: 'hidden'}} className='container'>
-            
+
+        <div style={{ overflow: 'hidden' }} className='container'>
+
 
             <div className='banner-img' style={{ backgroundImage: `url(${strTeamBanner})` }}>
                 <div className='logo-style'>
@@ -48,7 +49,7 @@ const TeamDetails = () => {
             <div className='detail-box py-1'>
                 <div className='row m-5 py-5 details-style'>
                     <div className='col-md-5 my-4'>
-                        <h1>{strTeam}</h1><br/>
+                        <h1>{strTeam}</h1><br />
                         <h6 style={textStyle}><FontAwesomeIcon icon={faPodcast} /> Founded: {intFormedYear}</h6>
                         <h6 style={textStyle}><FontAwesomeIcon icon={faFlag} /> Country: {strCountry}</h6>
                         <p style={textStyle}><FontAwesomeIcon icon={faFutbol} /> Sport Type: Football</p>
@@ -70,13 +71,21 @@ const TeamDetails = () => {
 
                 <div className='icons'>
                     <div>
-                        <img src={facebookImage} alt="" />
+                        <Link to="/facebook">
+                            <img src={facebookImage} alt="" />
+                        </Link>
+
                     </div>
                     <div>
-                        <img src={twitterImage} alt="" />
+                        <Link to="/twitter">
+                            <img src={twitterImage} alt="" />
+                        </Link>
+
                     </div>
                     <div>
-                        <img src={youTubeImage} alt="" />
+                        <Link to="/youTube">
+                            <img src={youTubeImage} alt="" />
+                        </Link>
                     </div>
 
                 </div>
