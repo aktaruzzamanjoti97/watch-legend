@@ -1,5 +1,5 @@
 # Football Mania
-This is Football Mania. Here you can the premier league teams. You can explore it
+This is Football Mania. Here you can show the premier league teams. You can explore it
 
 ## Team Details
 You can see every team details below
