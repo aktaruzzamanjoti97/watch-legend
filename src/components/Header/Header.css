@@ -3,8 +3,8 @@
     width: 100%;
     position: absolute;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
-    background-size: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: 100% 100%;
     margin-left: -1rem;
     background-repeat: no-repeat;
     display: flex;
@@ -12,9 +12,12 @@
     justify-content: center;
     align-items: center
 }
+
 .header-bg{
     background-image: url('../../images/Header-bg/Header-bg.png');
-    height: 180px;
+    height: 330px;
     position: relative;
     overflow: hidden;
 }
+
+

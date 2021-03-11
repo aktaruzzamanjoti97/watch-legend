@@ -1,0 +1,59 @@
+.logo-style{
+    height: 20rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.banner-img{
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img img{
+    
+    height: 150px
+}
+
+.gender-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.gender-image{
+    width: 70%
+}
+.details-style{
+   
+    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    border-radius: 15px;
+}
+
+.detail-box{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: white;
+    
+}
+
+.icons{
+   display: flex;
+  
+   justify-content: center;
+   padding: 10px;
+   margin: 10px;
+}
+
+.icons img{
+    width: 50px
+}
